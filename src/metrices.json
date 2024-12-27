@@ -1,0 +1,195 @@
+{
+  "apiProxy": [
+    {
+      "requestBody": {
+        "select": "sum(is_error)",
+        "startDate": "11/21/2024 00:00:00",
+        "endDate": "12/18/2024 00:00:00",
+        "filter": "(response_status_code eq 400)",
+        "timeUnit": "day",
+        "sortby": "sum(is_error)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second difference"
+    },
+    {
+      "requestBody": {
+        "select": "avg(response_processing_latency)",
+        "startDate": "11/13/2024 00:00:00",
+        "endDate": "12/10/2024 00:00:00",
+        "filter": "(request_verb in'POST','PUT')",
+        "timeUnit": "day",
+        "sortby": "avg(response_processing_latency)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second"
+    },
+    {
+      "requestBody": {
+        "select": "avg(response_processing_latency)",
+        "startDate": "11/13/2024 00:00:00",
+        "endDate": "12/10/2024 00:00:00",
+        "filter": "(request_verb in'POST','PUT')",
+        "timeUnit": "day",
+        "sortby": "avg(response_processing_latency)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second"
+    },
+    {
+      "requestBody": {
+        "select": "avg(response_processing_latency)",
+        "startDate": "11/13/2024 00:00:00",
+        "endDate": "12/10/2024 00:00:00",
+        "filter": "(request_verb in'POST','PUT')",
+        "timeUnit": "day",
+        "sortby": "avg(response_processing_latency)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second"
+    }
+  ],
+
+  "errorCode": [
+    {
+      "requestBody": {
+        "select": "sum(is_error)",
+        "startDate": "11/21/2024 00:00:00",
+        "endDate": "12/18/2024 00:00:00",
+        "filter": "(response_status_code eq 400)",
+        "timeUnit": "day",
+        "sortby": "sum(is_error)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second difference"
+    },
+    {
+      "requestBody": {
+        "select": "avg(response_processing_latency)",
+        "startDate": "11/13/2024 00:00:00",
+        "endDate": "12/10/2024 00:00:00",
+        "filter": "(request_verb in'POST','PUT')",
+        "timeUnit": "day",
+        "sortby": "avg(response_processing_latency)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second"
+    },
+    {
+      "requestBody": {
+        "select": "avg(response_processing_latency)",
+        "startDate": "11/13/2024 00:00:00",
+        "endDate": "12/10/2024 00:00:00",
+        "filter": "(request_verb in'POST','PUT')",
+        "timeUnit": "day",
+        "sortby": "avg(response_processing_latency)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second"
+    },
+    {
+      "requestBody": {
+        "select": "avg(response_processing_latency)",
+        "startDate": "11/13/2024 00:00:00",
+        "endDate": "12/10/2024 00:00:00",
+        "filter": "(request_verb in'POST','PUT')",
+        "timeUnit": "day",
+        "sortby": "avg(response_processing_latency)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second"
+    }
+  ],
+  "latency": [
+    {
+      "requestBody": {
+        "select": "sum(is_error)",
+        "startDate": "11/21/2024 00:00:00",
+        "endDate": "12/18/2024 00:00:00",
+        "filter": "(response_status_code eq 400)",
+        "timeUnit": "day",
+        "sortby": "sum(is_error)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second difference"
+    },
+    {
+      "requestBody": {
+        "select": "avg(response_processing_latency)",
+        "startDate": "11/13/2024 00:00:00",
+        "endDate": "12/10/2024 00:00:00",
+        "filter": "(request_verb in'POST','PUT')",
+        "timeUnit": "day",
+        "sortby": "avg(response_processing_latency)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second"
+    },
+    {
+      "requestBody": {
+        "select": "avg(response_processing_latency)",
+        "startDate": "11/13/2024 00:00:00",
+        "endDate": "12/10/2024 00:00:00",
+        "filter": "(request_verb in'POST','PUT')",
+        "timeUnit": "day",
+        "sortby": "avg(response_processing_latency)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second"
+    }
+  ],
+  "cache": [
+    {
+      "requestBody": {
+        "select": "sum(is_error)",
+        "startDate": "11/21/2024 00:00:00",
+        "endDate": "12/18/2024 00:00:00",
+        "filter": "(response_status_code eq 400)",
+        "timeUnit": "day",
+        "sortby": "sum(is_error)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second difference"
+    },
+    {
+      "requestBody": {
+        "select": "avg(response_processing_latency)",
+        "startDate": "11/13/2024 00:00:00",
+        "endDate": "12/10/2024 00:00:00",
+        "filter": "(request_verb in'POST','PUT')",
+        "timeUnit": "day",
+        "sortby": "avg(response_processing_latency)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second"
+    }
+  ],
+  "target": [
+    {
+      "requestBody": {
+        "select": "sum(is_error)",
+        "startDate": "11/21/2024 00:00:00",
+        "endDate": "12/18/2024 00:00:00",
+        "filter": "(response_status_code eq 400)",
+        "timeUnit": "day",
+        "sortby": "sum(is_error)",
+        "topk": "1"
+      },
+      "visibility": true,
+      "title": "Average Transactions Per Second difference"
+    }
+  ]
+}
